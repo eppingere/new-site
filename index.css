@@ -5,10 +5,7 @@ body {
 #console {
 	font-family: courier, monospace;
 	color: #fff;
-	width:1080px;
-	margin-left:100px;
-	margin-right:100px;
-	margin-top:100px;
+	height: auto;
 	font-size:14px;
 }
 

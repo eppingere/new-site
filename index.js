@@ -2,8 +2,9 @@
 
 var content = `
 <pre><span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag--> cd interactive-terminal-site
-<span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag--> ABOUTME.md<br/>
-Hi, My name is Emmanuel Eppinger. <!-- sjkfhskjf --> I am a Computer Science and Pre-Law student at Carnegie Mellon University, graduating sometime soon (Fall '20 or Spring '21, COVID is a mess).
+<span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag--> cat ABOUTME.md<br/>
+Hi, My name is Emmanuel Eppinger (<a href="cv.pdf">CV</a>). <!-- sjkfhskjf --> I am a Computer Science and Pre-Law student at Carnegie Mellon University,
+graduating sometime soon (Fall '20 or Spring '21, COVID is a mess).
 
 <span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag --> ssh emmanuee@unix.andrew.cmu.edu
 password: <!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->
@@ -50,7 +51,7 @@ sqlite> <!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglagl
 psql (12.2, server 9.5devel)
 Type "help" for help.
 
-terrier=# <!-- laglaglaglaglaglag --> SELECT * FROM Projects;
+terrier=# <!-- laglaglaglaglaglag -->SELECT * FROM Projects;
         name           |          scope        |     website     |                                                   description
 =========================================================================================================================================================================================
 Babble                 | PennApps 18           | <a href="https://eppi.ng/babble">eppi.ng/babble</a>  | Completely decentralized chat app, no network required.
