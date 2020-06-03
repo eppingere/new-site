@@ -1,7 +1,8 @@
 
 
 var content = `
-<pre><span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag--> cat interactive-terminal-site/ABOUTME.md<br/>
+<pre><span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag--> cd interactive-terminal-site
+<span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag--> ABOUTME.md<br/>
 Hi, My Name is Emmanuel Eppinger. <!-- sjkfhskjf --> I am a Computer Science and Pre-Law student at Carnegie Mellon University, graduating sometime soon (Fall '20 or Spring '21, COVID is a mess).
 
 <span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag --> ssh emmanuee@unix.andrew.cmu.edu
@@ -57,7 +58,7 @@ NUMA Aware Thread Pool | 15-721 Course Project | <a href="https://eppi.ng/babble
 B+Tree                 | 15-721 Course Project | <a href="https://eppi.ng/babble">eppi.ng/terrier</a> | Almost-Latch Free B+Tree. Comparable to BW-Tree and offers 20x improvement for concurrent randomized reads and writes.
 (3 rows)
 terrier=#<!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->^D
-<span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->cat CONTACTME.md
+<span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span><!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->cat ../CONTACTME.md
 
 You can learn more about me and my <a href="project-descriptions.html">work here</a> and you can get my <a href="cv.pdf">CV here</a>.<br/>
 <span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span></pre>`
@@ -156,7 +157,7 @@ function replaceUrls(text) {
   }
 }
 
-Typer.speed = 1000;
+Typer.speed = 3;
 Typer.text = content;
 Typer.init();
 
