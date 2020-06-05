@@ -62,7 +62,10 @@ terrier=#<!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag
 <span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span> <!-- laglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglaglag -->cat ../CONTACTME.md
 
 You can learn more about me and my <a href="project-descriptions.html">work here</a> and you can get my <a href="cv.pdf">CV here</a>.<br/>
-<span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span></pre>`
+<span id="a">you@eppi.ng</span>:<span id="b">~</span><span id="c">$</span></pre>
+
+
+Copyright &copy; Emmanuel J. Eppinger 2020   `
 
 var Typer = {
   text: '',
